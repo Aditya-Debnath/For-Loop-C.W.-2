@@ -41,7 +41,7 @@ int main()
     }
     printf("\n");
 
-    for(i=1;i<=n;i++)
+    for(i=1;i<=n-2;i++)
     {
         printf("*");
         for(j=0;j<n-2;j++)
@@ -59,6 +59,9 @@ int main()
 }
 
 3rd Problem
+
+Input :- 5
+Output :- 12321
 
 Solution :-
 
@@ -82,9 +85,38 @@ int main()
 
 Another solution from sir.
 
-Wait for some time.
+#include<stdio.h>
+int main()
+{
+    int i, j, n;
+    scanf("%d",&n);
+    j=1;
+    int flag = 1;
+    for(i=0;i<n;i++)
+    {
+        printf("%d",j);
+        if(j<= n/2 && flag == 1)
+        {
+            j++;
+        }
+        else
+        {
+            j--;
+            flag =0;
+        }
+    }
+}
+
 
 4th Problem
+
+Input :- 5
+Output :-
+12321
+12321
+12321
+12321
+12321
 
 Solution
 
@@ -92,20 +124,31 @@ Solution
 int main()
 {
 
-    int n, i, j;
+    int n, i, j, k;
     scanf("%d",&n);
+    for(int k =0;k<n;k++)
     {
-    for(i=1;i<=n;i++)
-    {
-        for(j=1;j<=i;j++)
+         j=1;
+         int flag = 1;
+         for(i=0;i<n;i++)
         {
-            printf("%d",j);
+             printf("%d",j);
+            if(j<= n/2 && flag == 1)
+            {
+            j++;
+            }
+            else
+            {
+              j--;
+              flag =0;
+            }
         }
         printf("\n");
     }
-    }
     
 }
+
+
 
 5th Problem 
 
