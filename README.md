@@ -88,6 +88,7 @@ Another solution from sir.
 #include<stdio.h>
 int main()
 {
+
     int i, j, n;
     scanf("%d",&n);
     j=1;
@@ -105,6 +106,7 @@ int main()
             flag =0;
         }
     }
+    
 }
 
 
