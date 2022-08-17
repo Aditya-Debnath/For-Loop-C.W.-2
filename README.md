@@ -3,6 +3,12 @@
 
 1st Problem 
 
+Input :- 3
+Output :-
+***
+***
+***
+
 Solution :-
 
 #include<stdio.h>
@@ -25,6 +31,12 @@ int main()
 }
 
 2ed Problem 
+
+Input :- 3
+Output :-
+***
+* *
+***
 
 Solution :-
 
