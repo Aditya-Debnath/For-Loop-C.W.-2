@@ -176,8 +176,38 @@ int main()
     
 }
 
+5th Problem
+Input :- 5
+Output :-
+1
+12
+123
+1234
+12345
 
-5th Problem 
+Solution
+
+#include<stdio.h>
+int main()
+{
+
+    int n, i, j;
+    scanf("%d",&n);
+    {
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    }
+    
+}
+
+
+6th Problem 
 
 Finding Prime numbers between 10 to 50.
 
@@ -207,13 +237,15 @@ int main()
             printf("%d\n",i);
         }
     }
-    printf("\nTotal prime number are=%d",count);
+    printf("\nTotal prime number are = %d",count);
     
     return 0;
     
 }
 
-6th Problem
+7th Problem
+
+Try to solve full 
 
 Solution
 
