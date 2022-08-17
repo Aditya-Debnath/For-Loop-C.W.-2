@@ -150,6 +150,31 @@ int main()
     
 }
 
+Solution from sir
+
+#include<stdio.h>
+int main()
+{
+
+    int n, i, j;
+    scanf("%d",&n);
+    for(int k = 0; k<n ;k++)
+    {
+        j = 1;
+        int flag = 1;
+        for(i = 0; i< n;i++)
+        {
+            printf("%d",j);
+            if(j<= n/2 && flag == 1) j++;
+            else{
+                    j--;
+                    flag = 0;
+            }
+        }
+        printf("\n");
+    }
+    
+}
 
 
 5th Problem 
