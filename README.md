@@ -5,9 +5,11 @@
 
 Input :- 3
 Output :-
-***
-***
-***
+***\n
+***\n
+***\n
+
+\n is for new line, it will not show in output.
 
 Solution :-
 
@@ -34,9 +36,11 @@ int main()
 
 Input :- 3
 Output :-
-***
-* *
-***
+***\n
+* *\n
+***\
+
+\n is for new line, it will not show in output.
 
 Solution :-
 
@@ -257,7 +261,7 @@ int main()
 
 7th Problem
 
-Try to solve full 
+Try to solve full Picture.
 
 Solution
 
