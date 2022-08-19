@@ -283,7 +283,7 @@ int main()
         }
         printf("\n");
     }
-    for(k=0;k<=n;k++)
+    for(k=0;k<=n-1;k++)
     {
         printf("$");
     }
