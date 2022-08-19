@@ -269,6 +269,7 @@ Solution
 int main()
 {
 
+    //C.W.
     int n, i, j, k;
     scanf("%d",&n);
     for(i=1;i<=n/2;i++)
@@ -288,17 +289,25 @@ int main()
         printf("$");
     }
     printf("\n");
+    //C.W. ENDED.
     
+    //H.W.
+    for(m=n/2;m>=1;m--)
+    {
+        for(x=n;x>=1;x--)
+            {
+                if(x==n/2+1 || x==n/2+1-m+1 || x==n/2+1+m-1)
+                {
+                    printf("$");
+                }
+                else
+                {
+                    printf("-");
+                }
+            }
+            printf("\n");
+    }
+    //H.W. ended. If you don't understand the process, you can ask me any time. :D
 }
-
-
-
-
-
-
-
-
-
-
 
 
