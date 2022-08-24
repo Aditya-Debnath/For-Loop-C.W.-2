@@ -270,7 +270,7 @@ int main()
 {
 
     //C.W.
-    int n, i, j, k;
+    int n, i, j, k, m, x;
     scanf("%d",&n);
     for(i=1;i<=n/2;i++)
     {
